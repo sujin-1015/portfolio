@@ -1,0 +1,33 @@
+title: 이수진 포트폴리오
+description: 데이터 분석가 이수진의 포트폴리오 — 정형·비정형 데이터 분석과 머신러닝 프로젝트
+lang: ko
+
+author: 이수진
+email: sujin10157@gmail.com
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
+
+defaults:
+  - scope:
+      path: ""
+      type: projects
+    values:
+      layout: project
+  - scope:
+      path: ""
+    values:
+      layout: default
+
+sass:
+  sass_dir: assets/css
+  style: compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+exclude:
+  - README.md

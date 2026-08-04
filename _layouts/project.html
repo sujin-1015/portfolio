@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<article class="project-detail">
+  <div class="wrap">
+    <a class="back-link" href="{{ '/#projects' | relative_url }}">&larr; 프로젝트 목록으로</a>
+
+    <header class="project-detail__header">
+      {% if page.badge %}<p class="project-detail__badge">🏅 {{ page.badge }}</p>{% endif %}
+      <h1>{{ page.title }}</h1>
+      <p class="project-detail__period">{{ page.period }}</p>
+
+      <div class="project-detail__meta">
+        <div>
+          <span class="meta-label">산업/분야</span>
+          <div class="chip-row">
+            {% for f in page.field %}<span class="chip chip--field">{{ f }}</span>{% endfor %}
+          </div>
+        </div>
+        <div>
+          <span class="meta-label">직무/기술</span>
+          <div class="chip-row">
+            {% for s in page.skills %}<span class="chip">{{ s }}</span>{% endfor %}
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <div class="project-detail__body">
+      {{ content }}
+    </div>
+
+    <nav class="project-detail__pager">
+      {% assign proj = site.projects | sort: 'order' %}
+      {% for p in proj %}
+        {% if p.url == page.url %}
+          {% assign idx = forloop.index0 %}
+        {% endif %}
+      {% endfor %}
+      {% assign prev_idx = idx | minus: 1 %}
+      {% assign next_idx = idx | plus: 1 %}
+      {% if prev_idx >= 0 %}
+        {% assign prev = proj[prev_idx] %}
+        <a class="pager-link pager-link--prev" href="{{ prev.url | relative_url }}">&larr; {{ prev.title }}</a>
+      {% else %}<span></span>{% endif %}
+      {% if next_idx < proj.size %}
+        {% assign next = proj[next_idx] %}
+        <a class="pager-link pager-link--next" href="{{ next.url | relative_url }}">{{ next.title }} &rarr;</a>
+      {% endif %}
+    </nav>
+  </div>
+</article>
