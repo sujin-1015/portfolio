@@ -28,6 +28,11 @@ skills: ["Python", "공공데이터", "데이터통합", "분류", "회귀"]
 
 전체 129개의 변수를 가공했고, 결측치 처리, 중복 처리, 이상치 처리, 필요없는 변수 소거, 변수명 정리 등 데이터 전처리를 진행했습니다.
 
+<figure>
+  <img src="{{ '/assets/images/projects/06-horse-racing/img-01.png' | relative_url }}" alt="통합된 경마 원시 데이터 샘플 스프레드시트">
+  <figcaption>통합 데이터 샘플</figcaption>
+</figure>
+
 ## Step2. 데이터 통합 및 변수 선택
 
 총 8개의 데이터를 식별키를 기준으로 통합했습니다. (말 — 프로필/성적/경기/질병, 기수 — 프로필/성적, 훈련사 — 프로필/훈련정보)
@@ -55,3 +60,15 @@ skills: ["Python", "공공데이터", "데이터통합", "분류", "회귀"]
 - OLS regression
 
 두 접근을 함께 비교해 모델링 결과를 종합적으로 정리했습니다.
+
+<figure>
+  <img src="{{ '/assets/images/projects/06-horse-racing/img-02.png' | relative_url }}" alt="로지스틱 회귀, 랜덤포레스트 분류, 랜덤포레스트 회귀, 선형회귀분석 모델별 성능 비교">
+  <figcaption>모델링 결과 요약 (선형회귀 R²: 0.88, 최종 모델로 선택)</figcaption>
+</figure>
+
+최종적으로 17개 변수를 사용한 선형회귀분석(R² 0.88)을 최종 모델로 선택했습니다. 2023년 12월 3일에 열린 3개 경기(제5경기·제7경기·제10경기)에 대해 각각 예측을 수행해, 선택한 5마리 말 중 1·2·3위가 모두 포함되는지 검증한 결과 **3개 경기 모두 예측에 성공**했습니다.
+
+<figure>
+  <img src="{{ '/assets/images/projects/06-horse-racing/img-03.png' | relative_url }}" alt="2023년 12월 3일 3개 경기에 대한 선형회귀 예측 코드와 예측 성공 결과">
+  <figcaption>선형회귀 예측 결과 — 3개 경기 모두 예측 성공</figcaption>
+</figure>

@@ -20,7 +20,7 @@ skills: ["Python", "R", "비정형", "텍스트마이닝", "토픽모델링", "�
 ## Step3. LDA 토픽 모델링
 
 <figure>
-  <img src="/assets/images/projects/04-senior-job/img-01.png" alt="LDA 토픽 모델링 절차 — 데이터 수집/전처리, 형태소 분석, 매개변수 조정, LDA 수행, 결과 시각화">
+  <img src="{{ '/assets/images/projects/04-senior-job/img-01.png' | relative_url }}" alt="LDA 토픽 모델링 절차 — 데이터 수집/전처리, 형태소 분석, 매개변수 조정, LDA 수행, 결과 시각화">
   <figcaption>LDA 토픽 모델링 절차</figcaption>
 </figure>
 
@@ -30,19 +30,19 @@ Coherence score(일관성 점수)를 모델 평가 지표로 선정하고 모델
 
 <div class="fig-row">
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-02.png" alt="토픽 수(num_topics)에 따른 Coherence Score 변화">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-02.png' | relative_url }}" alt="토픽 수(num_topics)에 따른 Coherence Score 변화">
     <figcaption>토픽 수에 따른 Coherence Score</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-03.png" alt="iterations 값에 따른 Coherence Score 변화">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-03.png' | relative_url }}" alt="iterations 값에 따른 Coherence Score 변화">
     <figcaption>iterations에 따른 Coherence Score</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-04.png" alt="passes 값에 따른 Coherence Score 변화">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-04.png' | relative_url }}" alt="passes 값에 따른 Coherence Score 변화">
     <figcaption>passes에 따른 Coherence Score</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-05.png" alt="eta 값에 따른 Coherence Score 변화">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-05.png' | relative_url }}" alt="eta 값에 따른 Coherence Score 변화">
     <figcaption>eta에 따른 Coherence Score</figcaption>
   </figure>
 </div>
@@ -53,17 +53,17 @@ Coherence score(일관성 점수)를 모델 평가 지표로 선정하고 모델
 - 빈도 분석 결과를 워드 클라우드로 시각화, 단어들의 TF 및 TF-IDF 값 계산 → 중요도가 높은 상위 단어 추출
 
 <figure>
-  <img src="/assets/images/projects/04-senior-job/img-06.png" alt="토픽 9개 키워드 네트워크 그래프">
+  <img src="{{ '/assets/images/projects/04-senior-job/img-06.png' | relative_url }}" alt="토픽 9개 키워드 네트워크 그래프">
   <figcaption>토픽 키워드 네트워크 그래프</figcaption>
 </figure>
 
 <div class="fig-row">
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-07.png" alt="TF 기반 워드클라우드">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-07.png' | relative_url }}" alt="TF 기반 워드클라우드">
     <figcaption>TF 기반 워드클라우드</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/04-senior-job/img-08.png" alt="TF-IDF 기반 워드클라우드">
+    <img src="{{ '/assets/images/projects/04-senior-job/img-08.png' | relative_url }}" alt="TF-IDF 기반 워드클라우드">
     <figcaption>TF-IDF 기반 워드클라우드</figcaption>
   </figure>
 </div>

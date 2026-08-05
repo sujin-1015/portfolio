@@ -9,17 +9,17 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 ---
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-01.jpg" alt="LG전자 DX School 지능형 고객경험데이터 분석 서비스 프로젝트 우수상 인증서">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-01.jpg' | relative_url }}" alt="LG전자 DX School 지능형 고객경험데이터 분석 서비스 프로젝트 우수상 인증서">
   <figcaption>LG전자 DX School 5기 우수상 인증서</figcaption>
 </figure>
 
 <div class="fig-row">
   <figure>
-    <img src="/assets/images/projects/01-sign-language/img-02.png" alt="현장 시연 사진">
+    <img src="{{ '/assets/images/projects/01-sign-language/img-02.png' | relative_url }}" alt="현장 시연 사진">
     <figcaption>현장 시연</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/01-sign-language/img-03.png" alt="팀 단체 사진">
+    <img src="{{ '/assets/images/projects/01-sign-language/img-03.png' | relative_url }}" alt="팀 단체 사진">
     <figcaption>팀 단체 사진</figcaption>
   </figure>
 </div>
@@ -29,12 +29,12 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 장애 종류별 인구 비율 및 글로벌 보조기기 시장 전망을 볼 때, 국내 등록장애인 중 지체·청각·시각 장애 비중이 높고, 글로벌 보조기기 시장은 연평균 8.12% 고성장이 전망됩니다 (2035년 약 52조 원 규모). 2025 유럽 접근성법(EAA), 2026 국내 장애인차별금지법 개정으로 가전제품 접근성 보장이 의무화되는 흐름 속에서, LG전자는 다양한 가전을 연결하는 ThinQ 생태계와 카메라·이동형 디스플레이를 갖춘 스탠바이미를 보유하고 있어 음성·수어·시각 인식 UI를 하나의 허브에 자연스럽게 통합할 수 있는 유일한 위치에 있습니다.
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-04.png" alt="장애 종류별 인구 비율 및 글로벌 보조기기 시장 전망 차트">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-04.png' | relative_url }}" alt="장애 종류별 인구 비율 및 글로벌 보조기기 시장 전망 차트">
   <figcaption>장애 종류별 인구 비율 및 글로벌 보조기기 시장 전망</figcaption>
 </figure>
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-05.png" alt="LG전자의 강점 — 스탠바이미, ThinQ, SW 업데이트">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-05.png' | relative_url }}" alt="LG전자의 강점 — 스탠바이미, ThinQ, SW 업데이트">
   <figcaption>LG전자의 강점</figcaption>
 </figure>
 
@@ -49,7 +49,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - **누군가의 도움 없이 이동하고 싶다 (지체)** — 리모컨·작은 화면 조작이 불편함
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-06.png" alt="청각·시각·지체 장애 당사자 리뷰 및 Pain Point 분석">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-06.png' | relative_url }}" alt="청각·시각·지체 장애 당사자 리뷰 및 Pain Point 분석">
   <figcaption>실제 리뷰 기반 Pain Point 분석</figcaption>
 </figure>
 
@@ -71,7 +71,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - 대화 내용 저장 및 요약 리포트 제공
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-07.png" alt="LG DoDo 서비스 정의서 — Target, Concept, Touch Point, Key Value">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-07.png' | relative_url }}" alt="LG DoDo 서비스 정의서 — Target, Concept, Touch Point, Key Value">
   <figcaption>서비스 정의서</figcaption>
 </figure>
 
@@ -82,7 +82,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - 접근성 강화: 장애 유형에 맞는 맞춤형 UI
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-08.png" alt="LG DoDo 서비스 구조도 — 수어 대화, 가전 제어, 마이페이지">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-08.png' | relative_url }}" alt="LG DoDo 서비스 구조도 — 수어 대화, 가전 제어, 마이페이지">
   <figcaption>LG DoDo 서비스 구조도</figcaption>
 </figure>
 
@@ -99,7 +99,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - AI가 그룹 대화 맥락을 분석해 핵심 요약 및 해시태그 기반 리포트 저장
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-09.png" alt="AI 수어 대화 화면 — 실시간 대화 및 대화 리포트">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-09.png' | relative_url }}" alt="AI 수어 대화 화면 — 실시간 대화 및 대화 리포트">
   <figcaption>실시간 대화 &amp; 대화 리포트 화면</figcaption>
 </figure>
 
@@ -113,11 +113,11 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 
 <div class="fig-row">
   <figure>
-    <img src="/assets/images/projects/01-sign-language/img-10.png" alt="가전 제어 제안 팝업 예시">
+    <img src="{{ '/assets/images/projects/01-sign-language/img-10.png' | relative_url }}" alt="가전 제어 제안 팝업 예시">
     <figcaption>제어 제안 팝업</figcaption>
   </figure>
   <figure>
-    <img src="/assets/images/projects/01-sign-language/img-11.png" alt="가전 제어 완료 메시지">
+    <img src="{{ '/assets/images/projects/01-sign-language/img-11.png' | relative_url }}" alt="가전 제어 완료 메시지">
     <figcaption>실행 완료 메시지</figcaption>
   </figure>
 </div>
@@ -130,7 +130,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - 저시력자를 위한 큰 버튼 및 고대비 인터페이스
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-12.png" alt="ThinQ 연동 통합 대시보드, 알림, 에어컨 제어 화면">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-12.png' | relative_url }}" alt="ThinQ 연동 통합 대시보드, 알림, 에어컨 제어 화면">
   <figcaption>ThinQ 연동 가전 제어 화면</figcaption>
 </figure>
 
@@ -141,7 +141,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 - 비상 연락망 등록으로 위급 상황 대비
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-13.png" alt="마이페이지 접근성 환경 설정 화면">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-13.png' | relative_url }}" alt="마이페이지 접근성 환경 설정 화면">
   <figcaption>개인화 접근성 환경 설정</figcaption>
 </figure>
 
@@ -152,7 +152,7 @@ skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프
 등록 청각장애인 44.9만 명·시각장애인 24.5만 명에 고령화에 따른 감각장애 인구 증가를 더하면, B2G(복지관·특수학교 등)로 확장 가능한 시장성을 갖추고 있습니다.
 
 <figure>
-  <img src="/assets/images/projects/01-sign-language/img-14.png" alt="정량적 분석, LG 비즈니스 가치, 고객 가치 요약">
+  <img src="{{ '/assets/images/projects/01-sign-language/img-14.png' | relative_url }}" alt="정량적 분석, LG 비즈니스 가치, 고객 가치 요약">
   <figcaption>기대 효과 요약</figcaption>
 </figure>
 
