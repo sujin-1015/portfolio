@@ -148,7 +148,7 @@ section{ padding: 72px 0; border-top: 1px solid var(--border); }
   text-transform:uppercase; color: var(--accent); margin-bottom:10px;
 }
 .section-head h2{ font-size: clamp(1.5rem, 3vw, 2rem); margin:0; letter-spacing:-.01em; }
-.section-head p{ color: var(--text-dim); margin:10px 0 0; max-width:560px; }
+.section-head p{ color: var(--text-dim); margin:10px 0 0; max-width:640px; text-wrap: pretty; }
 
 /* ---------- profile grid ---------- */
 .profile-grid{
