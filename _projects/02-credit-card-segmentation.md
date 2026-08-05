@@ -2,10 +2,16 @@
 title: "신용카드 고객 세그먼트 분류 AI 알고리즘 개발"
 period: "2025/03/10 → 2025/04/30"
 order: 2
+cover: "/assets/images/projects/02-credit-card/cover.png"
 badge: "인공지능 경진대회 플랫폼 DACON 2등 수상 (총 236개 팀 참여)"
 field: ["금융", "카드사"]
 skills: ["Python", "고객세분화", "모델링", "분류"]
 ---
+
+<figure>
+  <img src="/assets/images/projects/02-credit-card/img-01.jpg" alt="DACON 신용카드 고객 세그먼트 분류 AI 경진대회 수상 인증서">
+  <figcaption>DACON 신용카드 고객 세그먼트 분류 AI 경진대회 수상 인증서</figcaption>
+</figure>
 
 ## 경진대회 목표
 
@@ -28,6 +34,11 @@ skills: ["Python", "고객세분화", "모델링", "분류"]
 - Box Plot으로 분포 확인
 - 상관관계 분석: 상관계수 계산 및 heatmap 시각화 → 등급과 다른 변수 간의 상관관계 파악
 
+<figure>
+  <img src="/assets/images/projects/02-credit-card/img-02.png" alt="Segment별 고객 수 분포 — E 등급이 약 80% 차지하는 클래스 불균형">
+  <figcaption>Segment별 고객 수 분포 (클래스 불균형 확인)</figcaption>
+</figure>
+
 ### 데이터 전처리
 
 - 결측치 처리
@@ -38,6 +49,11 @@ skills: ["Python", "고객세분화", "모델링", "분류"]
 ## Step2. 등급별 소비 패턴 분석
 
 시각화를 통해 등급별 특징을 파악했습니다. 변수 분포 시각화(box plot)를 통해 특정 등급의 특징을 반영한 파생변수를 생성했습니다. (예시: 고객 등급별 '1순위 카드 이용금액' 분포)
+
+<figure>
+  <img src="/assets/images/projects/02-credit-card/img-03.png" alt="Segment별 1순위 카드이용금액 분포 박스플롯">
+  <figcaption>Segment별 '1순위 카드이용금액' 분포</figcaption>
+</figure>
 
 ## Step3. 고객 세분화 AI 알고리즘 개발
 

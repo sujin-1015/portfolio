@@ -2,6 +2,7 @@
 title: "서울시 공공자전거 수요 예측 및 영향 요인 분석"
 period: "2023/11/13 → 2023/12/07"
 order: 7
+cover: "/assets/images/projects/07-seoul-bike/cover.png"
 field: ["교통", "공공서비스"]
 skills: ["Python", "예측", "회귀", "모델링"]
 ---

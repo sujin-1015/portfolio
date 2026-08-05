@@ -2,6 +2,7 @@
 title: "경마 순위 1~3위 달성 여부 예측"
 period: "2023/10/05 → 2023/12/12"
 order: 6
+cover: "/assets/images/projects/06-horse-racing/cover.png"
 field: ["스포츠", "승마"]
 skills: ["Python", "공공데이터", "데이터통합", "분류", "회귀"]
 ---

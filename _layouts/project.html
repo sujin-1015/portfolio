@@ -26,6 +26,12 @@ layout: default
       </div>
     </header>
 
+    {% if page.cover %}
+    <div class="project-detail__cover">
+      <img src="{{ page.cover | relative_url }}" alt="{{ page.title }} 커버 이미지">
+    </div>
+    {% endif %}
+
     <div class="project-detail__body">
       {{ content }}
     </div>

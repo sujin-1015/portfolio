@@ -2,6 +2,7 @@
 title: "토픽 모델링을 활용한 노인 일자리 정책 언론 담론 분석"
 period: "2024/02/14 → 2025/03/12"
 order: 4
+cover: "/assets/images/projects/04-senior-job/cover.png"
 badge: "단독 제1저자 논문 게재 (한국노인인력개발원 연구조사부 공동연구)"
 field: ["사회", "정책"]
 skills: ["Python", "R", "비정형", "텍스트마이닝", "토픽모델링", "자연어처리", "웹크롤링"]
@@ -18,14 +19,54 @@ skills: ["Python", "R", "비정형", "텍스트마이닝", "토픽모델링", "�
 
 ## Step3. LDA 토픽 모델링
 
+<figure>
+  <img src="/assets/images/projects/04-senior-job/img-01.png" alt="LDA 토픽 모델링 절차 — 데이터 수집/전처리, 형태소 분석, 매개변수 조정, LDA 수행, 결과 시각화">
+  <figcaption>LDA 토픽 모델링 절차</figcaption>
+</figure>
+
 LDA(Latent Dirichlet Allocation)를 통해 문서의 단어 사용 패턴을 분석(gensim 활용)해 숨겨진 토픽을 식별하고 토픽별 핵심 키워드를 추출했습니다.
 
 Coherence score(일관성 점수)를 모델 평가 지표로 선정하고 모델 최적화를 진행했습니다. (tuning 대상: num_topics, iterations, passes, eta 등)
+
+<div class="fig-row">
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-02.png" alt="토픽 수(num_topics)에 따른 Coherence Score 변화">
+    <figcaption>토픽 수에 따른 Coherence Score</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-03.png" alt="iterations 값에 따른 Coherence Score 변화">
+    <figcaption>iterations에 따른 Coherence Score</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-04.png" alt="passes 값에 따른 Coherence Score 변화">
+    <figcaption>passes에 따른 Coherence Score</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-05.png" alt="eta 값에 따른 Coherence Score 변화">
+    <figcaption>eta에 따른 Coherence Score</figcaption>
+  </figure>
+</div>
 
 ## Step4. 시각화 | 네트워크 분석, 빈도 분석
 
 - 토픽별로 추출된 키워드와 가중치를 기반으로 네트워크 그래프 구축 (networkx, matplotlib, Kamada-Kawai 등 활용)
 - 빈도 분석 결과를 워드 클라우드로 시각화, 단어들의 TF 및 TF-IDF 값 계산 → 중요도가 높은 상위 단어 추출
+
+<figure>
+  <img src="/assets/images/projects/04-senior-job/img-06.png" alt="토픽 9개 키워드 네트워크 그래프">
+  <figcaption>토픽 키워드 네트워크 그래프</figcaption>
+</figure>
+
+<div class="fig-row">
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-07.png" alt="TF 기반 워드클라우드">
+    <figcaption>TF 기반 워드클라우드</figcaption>
+  </figure>
+  <figure>
+    <img src="/assets/images/projects/04-senior-job/img-08.png" alt="TF-IDF 기반 워드클라우드">
+    <figcaption>TF-IDF 기반 워드클라우드</figcaption>
+  </figure>
+</div>
 
 ## Step5. 토픽별 내용 분석
 
