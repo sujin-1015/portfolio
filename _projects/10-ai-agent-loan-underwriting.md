@@ -39,14 +39,14 @@ skills: ["Python", "AI Agent", "LLM", "RAG", "XGBoost", "FastAPI", "GCP", "Solan
 
 **Validation AUC** — XGBoost: 0.7846 / LightGBM: 0.7794. 검증 성능을 기준으로 XGBoost를 최종 서빙 모델로 채택했습니다.
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/10-ai-agent-loan/img-01.png' | relative_url }}" alt="XGBoost와 LightGBM의 Validation AUC 비교 바 차트">
   <figcaption>모델별 Validation AUC 비교</figcaption>
 </figure>
 
 등급별 실제 부도율은 위험 등급이 높아질수록 증가해, 1차 정량 심사가 대출 위험도를 단계적으로 구분하고 있음을 확인했습니다.
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/10-ai-agent-loan/img-02.png' | relative_url }}" alt="승인/조건부승인/거절 등급별 실제 부도율 — 7.66%, 28.09%, 43.66%">
   <figcaption>등급별 실제 부도율</figcaption>
 </figure>
