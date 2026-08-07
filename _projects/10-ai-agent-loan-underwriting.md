@@ -3,7 +3,7 @@ title: "소상공인 대출 사전심사 & 자동 소액대출 집행 AI Agent �
 period: "2026/07/20 → 2026/08/03"
 order: 3
 cover: "/assets/images/projects/10-ai-agent-loan/cover.jpg"
-badge: "2026 Google Cloud & Solana AI Agentic Hackathon 결승 진출 (총 60개 팀 중 10개 팀, 2026.08.21 최종 발표 예정)"
+badge: "2026 Google Cloud & Solana AI Agentic Hackathon 결승 진출"
 field: ["금융", "핀테크", "소상공인대출", "블록체인", "AI"]
 skills: ["Python", "AI Agent", "LLM", "RAG", "XGBoost", "FastAPI", "GCP", "Solana"]
 ---
