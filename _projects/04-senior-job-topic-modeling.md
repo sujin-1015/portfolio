@@ -1,7 +1,7 @@
 ---
 title: "토픽 모델링을 활용한 노인 일자리 정책 언론 담론 분석"
 period: "2024/02/14 → 2025/03/12"
-order: 4
+order: 5
 cover: "/assets/images/projects/04-senior-job/cover.png"
 badge: "단독 제1저자 논문 게재 (한국노인인력개발원 연구조사부 공동연구)"
 field: ["사회", "정책"]

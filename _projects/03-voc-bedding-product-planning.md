@@ -1,7 +1,7 @@
 ---
 title: "VOC 기반 고객 행동 분석 및 상품 기획"
 period: "2026/03/05 → 2026/03/20"
-order: 3
+order: 4
 cover: "/assets/images/projects/03-voc-bedding/cover.png"
 field: ["기업", "고객", "상품", "서비스"]
 skills: ["웹크롤링", "Python", "분류", "자연어처리", "토픽모델링", "텍스트마이닝", "비정형"]

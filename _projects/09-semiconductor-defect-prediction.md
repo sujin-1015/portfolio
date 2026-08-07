@@ -1,7 +1,7 @@
 ---
 title: "반도체 제조 공정 데이터 기반 불량률 예측 및 원인 분석"
 period: "2025/04/20 → 2025/06/10"
-order: 9
+order: 10
 cover: "/assets/images/projects/09-semiconductor/cover.jpg"
 field: ["제조", "반도체공정"]
 skills: ["Python", "예측", "회귀"]

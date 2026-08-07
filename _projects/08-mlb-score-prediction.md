@@ -1,7 +1,7 @@
 ---
 title: "MLB 경기 점수 및 승패 예측 모델링"
 period: "2025/04/20 → 2025/06/18"
-order: 8
+order: 9
 cover: "/assets/images/projects/08-mlb/cover.png"
 field: ["스포츠", "야구"]
 skills: ["R", "Python", "모델링", "예측"]
