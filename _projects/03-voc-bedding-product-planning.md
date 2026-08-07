@@ -33,15 +33,17 @@ skills: ["웹크롤링", "Python", "분류", "자연어처리", "토픽모델링
 - 알러지 질환 발생 원인 인식 1위 → **집먼지 진드기 (87.5%)**
 - 집먼지 진드기 서식 장소 인식 1위 → **침구류 (72.2%)**
 
-<figure class="figure--sm">
-  <img src="{{ '/assets/images/projects/03-voc-bedding/img-04.png' | relative_url }}" alt="아토피피부염 진단 연별 추이 (표준화율)">
-  <figcaption>아토피피부염 진단 연별 추이</figcaption>
-</figure>
+<div class="fig-row">
+  <figure class="figure--sm">
+    <img src="{{ '/assets/images/projects/03-voc-bedding/img-04.png' | relative_url }}" alt="아토피피부염 진단 연별 추이 (표준화율)">
+    <figcaption>아토피피부염 진단 연별 추이</figcaption>
+  </figure>
 
-<figure class="figure--sm">
-  <img src="{{ '/assets/images/projects/03-voc-bedding/img-05.png' | relative_url }}" alt="기존 침구 관리 방식(스타일러, 세탁기, 건조기 등)의 핵심 한계 및 불편사항">
-  <figcaption>기존 침구 관리 방식의 한계</figcaption>
-</figure>
+  <figure class="figure--sm">
+    <img src="{{ '/assets/images/projects/03-voc-bedding/img-05.png' | relative_url }}" alt="기존 침구 관리 방식(스타일러, 세탁기, 건조기 등)의 핵심 한계 및 불편사항">
+    <figcaption>기존 침구 관리 방식의 한계</figcaption>
+  </figure>
+</div>
 
 **타깃 고객** ⇒ 침구 위생에 관심이 많은 사람들
 
@@ -69,15 +71,17 @@ skills: ["웹크롤링", "Python", "분류", "자연어처리", "토픽모델링
 
 **자연어 처리** — Doc2Vec 기반 임베딩을 통해 텍스트 데이터를 벡터화하고, 빈도분석과 Silhouette Score 기반 최적의 K를 선정했습니다.
 
-<figure class="figure--sm">
-  <img src="{{ '/assets/images/projects/03-voc-bedding/img-07.png' | relative_url }}" alt="TF-IDF 상위 토큰 표와 워드클라우드">
-  <figcaption>TF-IDF 빈도 분석 및 워드클라우드</figcaption>
-</figure>
+<div class="fig-row">
+  <figure class="figure--sm">
+    <img src="{{ '/assets/images/projects/03-voc-bedding/img-07.png' | relative_url }}" alt="TF-IDF 상위 토큰 표와 워드클라우드">
+    <figcaption>TF-IDF 빈도 분석 및 워드클라우드</figcaption>
+  </figure>
 
-<figure class="figure--sm">
-  <img src="{{ '/assets/images/projects/03-voc-bedding/img-08.png' | relative_url }}" alt="클러스터 수(K)에 따른 Silhouette Score 변화 그래프">
-  <figcaption>Silhouette Score 기반 최적 K 선정</figcaption>
-</figure>
+  <figure class="figure--sm">
+    <img src="{{ '/assets/images/projects/03-voc-bedding/img-08.png' | relative_url }}" alt="클러스터 수(K)에 따른 Silhouette Score 변화 그래프">
+    <figcaption>Silhouette Score 기반 최적 K 선정</figcaption>
+  </figure>
+</div>
 
 ## Step3. 타깃고객 분석
 
