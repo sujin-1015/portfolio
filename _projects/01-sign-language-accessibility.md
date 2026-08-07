@@ -8,20 +8,21 @@ field: ["AI", "접근성", "기업", "고객"]
 skills: ["AI", "딥러닝", "모델링", "Python", "JavaScript", "PyTorch", "프런트/백엔드", "데이터분석"]
 ---
 
-<figure>
-  <img src="{{ '/assets/images/projects/01-sign-language/img-01.jpg' | relative_url }}" alt="LG전자 DX School 지능형 고객경험데이터 분석 서비스 프로젝트 우수상 인증서">
-  <figcaption>LG전자 DX School 5기 우수상 인증서</figcaption>
-</figure>
-
 <div class="fig-row">
   <figure>
-    <img src="{{ '/assets/images/projects/01-sign-language/img-02.png' | relative_url }}" alt="현장 시연 사진">
-    <figcaption>현장 시연</figcaption>
+    <img src="{{ '/assets/images/projects/01-sign-language/img-01.jpg' | relative_url }}" alt="LG전자 DX School 지능형 고객경험데이터 분석 서비스 프로젝트 우수상 인증서">
+    <figcaption>LG전자 DX School 5기 우수상 인증서</figcaption>
   </figure>
-  <figure>
-    <img src="{{ '/assets/images/projects/01-sign-language/img-03.png' | relative_url }}" alt="팀 단체 사진">
-    <figcaption>팀 단체 사진</figcaption>
-  </figure>
+  <div class="fig-stack">
+    <figure>
+      <img src="{{ '/assets/images/projects/01-sign-language/img-02.png' | relative_url }}" alt="현장 시연 사진">
+      <figcaption>현장 시연</figcaption>
+    </figure>
+    <figure>
+      <img src="{{ '/assets/images/projects/01-sign-language/img-03.png' | relative_url }}" alt="팀 단체 사진">
+      <figcaption>팀 단체 사진</figcaption>
+    </figure>
+  </div>
 </div>
 
 ## 프로젝트 추진 배경
