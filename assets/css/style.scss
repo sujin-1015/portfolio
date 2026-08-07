@@ -279,7 +279,7 @@ section{ padding: 72px 0; border-top: 1px solid var(--border); }
 }
 .meta-label{ font-size:.74rem; font-weight:700; text-transform:uppercase; letter-spacing:.06em; color: var(--text-faint); }
 
-.project-detail__body{ max-width: 760px; }
+.project-detail__body{ max-width: none; }
 .project-detail__body h2{ font-size:1.4rem; margin: 44px 0 16px; letter-spacing:-.01em; }
 .project-detail__body h2:first-child{ margin-top:0; }
 .project-detail__body h3{ font-size:1.1rem; margin: 30px 0 12px; color: var(--accent); }
