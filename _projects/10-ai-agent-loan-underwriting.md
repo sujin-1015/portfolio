@@ -87,14 +87,14 @@ skills: ["Python", "AI Agent", "LLM", "RAG", "XGBoost", "FastAPI", "GCP", "Solan
 - **조건부승인 자동 재심사**: Cloud Scheduler → FastAPI → 재심사 → BigQuery. Cloud Scheduler가 매일 03:00 KST에 조건부승인 대출을 확인해 재심사 대상을 자동 조회 (실제 재심사 처리는 합성 후속 텍스트를 준비한 신청자에 한해 검증 완료)
 - **통합 모니터링**: 동기 심사, 이벤트 기록, 자동 재심사 결과를 동일한 BigQuery 데이터셋에 저장해 하나의 대시보드에서 대출의 전체 Lifecycle을 조회할 수 있도록 구현
 
-<figure>
+<figure class="figure--wide">
   <img src="{{ '/assets/images/projects/10-ai-agent-loan/img-05.png' | relative_url }}" alt="동기 심사·집행, 이벤트 기반 영수증 생성, 스케줄 재심사 3단계 인프라 구조도">
   <figcaption>이벤트 기반 인프라 구조</figcaption>
 </figure>
 
 심사 대시보드에서 온체인 증빙을 확인할 수 있습니다 ([creditflow-agent-46585987317.asia-northeast3.run.app](https://creditflow-agent-46585987317.asia-northeast3.run.app/)).
 
-<figure>
+<figure class="figure--wide">
   <img src="{{ '/assets/images/projects/10-ai-agent-loan/img-03.png' | relative_url }}" alt="소상공인 대출 사전심사 심사 대시보드 — 총 심사 건수, 승인율, 온체인 집행 건수, 누적 집행액 및 최근 심사 결과 표">
   <figcaption>심사 대시보드 (Live POC)</figcaption>
 </figure>
@@ -103,7 +103,7 @@ skills: ["Python", "AI Agent", "LLM", "RAG", "XGBoost", "FastAPI", "GCP", "Solan
 
 ### 3-1. AI Agent 판정 파이프라인
 
-<figure>
+<figure class="figure--wide">
   <img src="{{ '/assets/images/projects/10-ai-agent-loan/img-04.png' | relative_url }}" alt="정형 데이터 → XGBoost → Gemini+RAG → 최종 판정 → Solana devnet → BigQuery로 이어지는 판정 파이프라인">
   <figcaption>AI Agent 판정 파이프라인</figcaption>
 </figure>
