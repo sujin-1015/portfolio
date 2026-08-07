@@ -19,7 +19,7 @@ skills: ["Python", "R", "비정형", "텍스트마이닝", "토픽모델링", "�
 
 ## Step3. LDA 토픽 모델링
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/04-senior-job/img-01.png' | relative_url }}" alt="LDA 토픽 모델링 절차 — 데이터 수집/전처리, 형태소 분석, 매개변수 조정, LDA 수행, 결과 시각화">
   <figcaption>LDA 토픽 모델링 절차</figcaption>
 </figure>

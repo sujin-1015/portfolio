@@ -38,7 +38,7 @@ Skewness(왜도) 분석을 진행하고 불량 분포를 확인했습니다.
   <figcaption>결측치 비율 상위 15개 센서</figcaption>
 </figure>
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/09-semiconductor/img-03.png' | relative_url }}" alt="Sensor31, Sensor40 이상치 분포 박스플롯">
   <figcaption>이상치 비율이 높은 센서 시각화</figcaption>
 </figure>
@@ -49,7 +49,7 @@ Skewness(왜도) 분석을 진행하고 불량 분포를 확인했습니다.
 - Z-score normalization
 - 이상치 처리 (처리 전/후 비교)
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/09-semiconductor/img-04.png' | relative_url }}" alt="이상치 처리 전후 박스플롯 비교">
   <figcaption>이상치 처리 전/후 비교</figcaption>
 </figure>

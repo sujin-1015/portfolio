@@ -302,6 +302,7 @@ section{ padding: 72px 0; border-top: 1px solid var(--border); }
   border-radius: var(--radius-sm); border:1px solid var(--border); box-shadow: var(--shadow);
 }
 .project-detail__body figure.figure--wide{ max-width: 100%; }
+.project-detail__body figure.figure--sm{ max-width: 320px; }
 .project-detail__body figcaption{
   text-align:center; font-size:.8rem; color: var(--text-faint); margin-top:8px;
 }

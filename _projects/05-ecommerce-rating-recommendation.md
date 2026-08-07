@@ -28,7 +28,7 @@ Random Forest 및 KNN(K-Nearest Neighbor) 모델을 사용했고, SMOTE 오버�
 
 - 데이터 불균형 확인 → SMOTE 오버샘플링 수행
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/05-ecommerce/img-02.png' | relative_url }}" alt="별점별 리뷰 수 분포 — 5점에 편중된 데이터 불균형">
   <figcaption>별점 분포 (데이터 불균형 확인)</figcaption>
 </figure>
@@ -90,7 +90,7 @@ def user_based_recommend(user_id, product_type):
 result = user_based_recommend(user_id=1, product_type='앰플')
 ```
 
-<figure>
+<figure class="figure--sm">
   <img src="{{ '/assets/images/projects/05-ecommerce/img-06.png' | relative_url }}" alt="user_id=1, product_type='앰플'에 대한 추천 결과 출력">
   <figcaption>추천 결과 예시 (앰플 제품)</figcaption>
 </figure>
